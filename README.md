@@ -6,19 +6,19 @@ The ideia here one solution allow track event the third website.
 Technologies:
 ================
 - backend
-    Node.js(version 16.8.0)
-    Javascript
-    Mongodb
-    Redis(Cache and Rate limit)
-    Bull + Redis(Queue)
-    Docker 
-    Docker compose
+    - Node.js(version 16.8.0)
+    - Javascript
+    - Mongodb
+    - Redis(Cache and Rate limit)
+    - Bull + Redis(Queue)
+    - Docker 
+    - Docker compose
 - frontend-react
-    React.js
+    - React.js
 - frontend-next
-    Next.js
+    - Next.js
 - frontend-vue
-    Vue.js
+    - Vue.js
 - frontend-html
     - PHP(To create server to test solution html page)
 - sdk-js
@@ -51,3 +51,9 @@ Instructions to running project:
 - frontend-html
     - Access directory **frontend-html**
     - Execute command **php -S localhost:5000 -t ./** to run php server and php start server html pages. OBS: you need php version 5.6 or more than it.
+- sdk-js
+    - Access directory **sdk-js**
+    - Execute command **npm i**
+    - Execute command **npm run build:dev** to generate file ./build/sdk.js and after only upload to s3.
+    - Execute command **npm run build:test** to generate file ./build/sdk.js and after only upload to s3.
+    - Execute command **npm run build:prod** to generate file ./build/sdk.js and after only upload to s3.
